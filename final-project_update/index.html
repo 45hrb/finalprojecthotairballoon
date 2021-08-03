@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Hot Air Balloon</title>
+
+    <style type="text/css">
+      .bg-trans {
+        background: rgba(255, 255, 255, 0.3);
+        color: black;
+      }
+
+      .jumbotron {
+        background-image: url('images/landscape.jpg');
+        background-size: cover;
+        color: white;
+        height: 1000px;
+        width: 100%;
+        padding-top: 20%;
+      }
+
+      #table1 > tr > td {
+        padding: 30px;
+      }
+
+      .site-footer
+      {
+        background-color:#26272b;
+        padding:45px 0 20px;
+        font-size:15px;
+        line-height:24px;
+        color:#737373;
+      }
+      .site-footer h6
+      {
+        color:#fff;
+        font-size:16px;
+        margin-top:5px;
+      }
+      .footer-links
+      {
+        padding-left:0;
+        list-style:none
+      }
+      .footer-links li
+      {
+        display:block
+      }
+      .footer-links.inline li
+      {
+        display:inline-block
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="rounded-lg text-center jumbotron">
+      <h1>Company Name</h1>
+      <p class="lead fw-bold">Tagline Message</p>
+      <p class="pb-3">__________________________</p>
+      <button class="btn btn-primary btn-lg me-2">Sign In</button>
+      <button class="btn btn-light btn-lg">Sign up</button>
+    </div>
+
+    <div class="container">
+      
+      <div class="row my-5">
+        <div class="col-5">
+          <img src="images/mock_ipad.jpg" class="img-fluid">
+        </div><!--col-5-->
+        <div class="col-7">
+          <h2>Lorem ipsum dolow sit amet iPAD </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div><!--col-7-->
+      </div><!--row-->
+
+      <hr>
+
+      <div class="row my-5"> 
+        <div class="col-7">
+          <h2>Lorem ipsum dolow sit amet NEXUS</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div><!--col-7-->
+        <div class="col-5">
+          <img src="images/mock_nexus.jpg" class="img-fluid">
+        </div> <!--col-5-->
+      </div> <!--row-->
+
+      <div class="row">
+        <div class="col-12">
+          <table class="table table-bordered text-center table-secondary">
+            <thead>
+              <tr>
+                <th scope="col" colspan="3">
+                  <h3 class="fw-bold">Features</h3>
+                  <p>Features headline message</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="table1">
+              <tr>
+                <td>Feature</td>
+                <td>Feature</td>
+                <td>Feature</td>
+              </tr>
+              <tr>
+                <td>Feature</td>
+                <td>Feature</td>
+                <td>Feature</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-10 offset-1">
+          <h3 class="my-5 text-center">Price Table</h3>
+          <table class="table table-striped">
+            <thead>
+              <tr class="text-center text-white">
+                <th class="bg-success py-3">Free plan</th>
+                <th class="bg-info py-3">Standard plan</th>
+                <th class="bg-danger py-3">Premium plan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-center text-white">
+                <td class="bg-success py-4"><h3>$ 0</h3></td>
+                <td class="bg-info py-4"><h3>$ 99</h3></td>
+                <td class="bg-danger py-4"><h3>$ 999</h3></td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>Dolor sit amet</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>Dolor sit amet</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-success w-100">Purchase</button></td>
+                <td><button class="btn btn-info w-100 text-white">Purchase</button></td>
+                <td><button class="btn btn-danger w-100">Purchase</button></td>
+              </tr>
+              // Do I need to activate the link to purchase or leave it as an inactive button?
+
+
+            </tbody>
+          </table>
+        </div><!--col-10-->
+      </div><!--row-->
+      <div class="row my-5">
+        <div class="col-12">
+          <table class="text-center" style="width: 70%; margin-left: 15%;">
+            <tbody>
+              <tr>
+                <td><img src="images/jon.png" class="rounded"><br><span style="color: darkcyan; font-weight: bold;">Jonny Doo</span><br><span style="color:grey;">CEO</span></td>
+                <td><img src="images/jon.png" class="rounded-circle"><br><span style="color: darkcyan; font-weight: bold;">Jonny Doo</span><br><span style="color:grey;">CTO</span></td>
+                <td><img src="images/jon.png" class="img-thumbnail"><br><span style="color: darkcyan; font-weight: bold;">Jonny Doo</span><br><span style="color:grey;">CIO</span></td>
+              </tr>
+              // I don't know how to align the name to be aligned horizontally -- Stress lagi!
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <div class="text-center fs-5 fw-bold my-5">Stay connected with us. Join the newsletter to receive fresh info.</div>
+      <form class="row g-3 justify-content-center align-items-center my-5">
+        <div class="col-auto">
+          <input type="text" class="form-control" placeholder="Your name">
+        </div>
+        <div class="col-auto">
+          <input type="emil" class="form-control" placeholder="Your email">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Join now!</button>
+        </div>
+      </form>
+    </div><!--container-->
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container-fluid">
+        <div class="row offset-1">
+          <div class="col-md-2">
+            <img src="images/logo.png" class="w-100">              
+          </div>
+            <div class="col-md-2">
+            <h6>The company</h6>
+            <ul class="footer-links">
+              <li>Documentation</li>
+              <li>Packt publisher</li>
+              <li>About us</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+            <div class="col-md-2">
+            <h6>Social</h6>
+            <ul class="footer-links">
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h6>Support</h6>
+            <ul class="footer-links">
+              <li>Contact</li>
+              <li>Privacy policy</li>
+              <li>Terms &amp; conditions</li>
+              <li>Help desk</li>
+            </ul>
+          </div>
+            <div class="col-md-2">
+            <h6>Name, Inc</h6>
+            <ul class="footer-links">
+              <li>Address line 1</li>
+              <li>Address line 2</li>
+              <li>P: (123) 456-7890</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
